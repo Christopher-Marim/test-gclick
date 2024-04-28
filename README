@@ -1,0 +1,13 @@
+precisa setar o project id.
+
+- eas build (não precisa buildar de fato, so gerar o eas project id)
+vai no firebase gera um projeto e pega a conta de serviço dele
+
+- eas credentials
+ - Seleciona Android > production > Google Service Account
+ - Seleciona Manage your Google Service Account Key for Push Notifications (FCM V1)
+ -  Set Up ...
+ - arrasta o service account json para dentro do terminal
+ 
+ agora so rodar o app
+ 
